@@ -155,6 +155,7 @@ var Swiper = new Swiper('.swiper-container', {
   mousewheelControl: true,
   // 速度
   speed: 400,
+  height : window.innerHeight,
   initialSlide: 0,
   onInit: function(swiper) {
     // 当前 swiper 被激活时
@@ -184,6 +185,7 @@ var Swiper = new Swiper('.swiper-container', {
     }
     if (swiper.activeIndex == 3) {
       // 第四页开始
+      $('#nextpage').removeClass('noKown')
       $('.slide-third .animated').removeClass('active')
       $('.slide-fifth .animated').removeClass('active')
       $('.slide-forth .animated').addClass('active')
