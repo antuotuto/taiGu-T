@@ -54,15 +54,15 @@ Line.prototype._init = function () {
     //横向速度
     _this.num = 7;
     //圆环速度
-    _this.rSpeed = 0.05; 
+    _this.rSpeed = 0.05;
     //y跨度
-    _this.yx = 100; 
+    _this.yx = 100;
     //圆半径
-    _this.r = 100; 
+    _this.r = 100;
     //圆环启始位置
-    _this.beginCur = 1.5; 
+    _this.beginCur = 1.5;
     //圆环位置
-    _this.closeCur = 1.5; 
+    _this.closeCur = 1.5;
     _this.rafLine();
 }
 // 绘制直线
@@ -72,7 +72,7 @@ Line.prototype.rafLine = function () {
     _this.l.x += _this.num;
     _this.ctx.beginPath();
     // 设置起点
-    _this.ctx.moveTo(_this.m.x, _this.m.y); 
+    _this.ctx.moveTo(_this.m.x, _this.m.y);
      // 画线
     _this.ctx.lineTo(_this.l.x, _this.l.y);
     // 关闭画布
@@ -180,7 +180,7 @@ var Swiper = new Swiper('.swiper-container', {
             $('.slide-second .animated').removeClass('active')
             $('.slide-forth .animated').removeClass('active')
             $('.slide-third .animated').addClass('active')
-            line.reset();
+            // line.reset();
         }
         if (swiper.activeIndex == 3) {
             // 第四页开始
