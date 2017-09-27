@@ -406,11 +406,12 @@ html {
 
 .fifth11 {
     background-image: url("../images/fifth11.png");
+    background-size: 100% 100%;
     position: absolute;
-    left: 103px;
-    top: 280px;
-    width: 217px;
-    height: 112px;
+    left: 171px;
+    top: 377px;
+    width: 108.5px;
+    height: 61px;
     z-index: 2;
 }
 
@@ -426,12 +427,12 @@ html {
 
 .fifth22 {
     background-image: url("../images/fifth22.png");
+    background-size: 100% 100%;
     position: absolute;
-    left: 452px;
-    top: 280px;
-    width: 216px;
-    height: 113px;
-    z-index: 2;
+    left: 433px;
+    top: 377px;
+    width: 108px;
+    height: 56.5px;
 }
 
 .fifth3 {
@@ -448,11 +449,10 @@ html {
     background-image: url("../images/fifth44.png");
     background-size: 100% 100%;
     position: absolute;
-    left: 244px;
-    top: 480px;
-    width: 140px;
-    height: 80px;
-    z-index: 7;
+    left: 222px;
+    top: 575px;
+    width: 118.15px;
+    height: 64px;
 }
 
 .fifth4 {
@@ -469,11 +469,10 @@ html {
     background-image: url("../images/fifth33.png");
     background-size: 100% 100%;
     position: absolute;
-    left: 489px;
-    top: 480px;
-    width: 140px;
-    height: 80px;
-    z-index: 7;
+    left: 436px;
+    top: 575px;
+    width: 185px;
+    height: 64px;
 }
 
 .fifth5 {
@@ -490,11 +489,10 @@ html {
     background-image: url("../images/fifth55.png");
     background-size: 100% 100%;
     position: absolute;
-    left: 193px;
-    top: 680px;
-    width: 140px;
-    height: 80px;
-    z-index: 7;
+    left: 174px;
+    top: 780px;
+    width: 118.15px;
+    height: 64px;
 }
 
 .fifth6 {
@@ -511,11 +509,10 @@ html {
     background-image: url("../images/fifth66.png");
     background-size: 100% 100%;
     position: absolute;
-    left: 452px;
-    top: 678px;
-    width: 140px;
-    height: 80px;
-    z-index: 7;
+    left: 478px;
+    top: 990px;
+    width: 100px;
+    height: 25px;
 }
 
 .fifth7 {
@@ -532,11 +529,10 @@ html {
     background-image: url("../images/fifth77.png");
     background-size: 100% 100%;
     position: absolute;
-    left: 244px;
-    top: 882px;
-    width: 140px;
-    height: 80px;
-    z-index: 7;
+    left: 253px;
+    top: 989px;
+    width: 46px;
+    height: 25px;
 }
 
 .fifth8 {
@@ -553,11 +549,10 @@ html {
     background-image: url("../images/fifth88.png");
     background-size: 100% 100%;
     position: absolute;
-    left: 489px;
-    top: 882px;
-    width: 140px;
-    height: 80px;
-    z-index: 7;
+    left: 400px;
+    top: 778px;
+    width: 185px;
+    height: 64px;
 }
 
 
