@@ -153,9 +153,10 @@ var Swiper = new Swiper('.swiper-container', {
   loop: false,
   // 鼠标
   mousewheelControl: true,
+  // 取高
+  height : window.innerHeight,
   // 速度
   speed: 400,
-  height : window.innerHeight,
   initialSlide: 0,
   onInit: function(swiper) {
     // 当前 swiper 被激活时
