@@ -173,9 +173,9 @@ html {
     background-size: 100% 100%;
     position: absolute;
     left: -35px;
-    top: 544px;
+    top: 600px;
     width: 400px;
-    height: 1033px;
+    height: 983px;
 }
 
 .indexLook {
@@ -183,9 +183,9 @@ html {
     background-size: 100% 100%;
     position: absolute;
     left: 389px;
-    top: 704px;
+    top: 754px;
     width: 195px;
-    height: 179px;
+    height: 129px;
     -webkit-animation: lookANT 1s infinite ease-in-out;
     animation: lookANT 1s infinite ease-in-out;
 }
