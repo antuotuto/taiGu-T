@@ -565,8 +565,67 @@ body, html {
   height:200px;
   width:200px;
   margin: 0 auto;
-  background-image: url("../images/QRcode.jpeg");
   background-size: 100% 100%;
+}
+
+.linkTo li img{
+  height:200px;
+  width:200px;
+}
+
+/*向下按钮*/
+
+#nextpage {
+    position: fixed;
+    top: 90%;
+    left: 45%;
+    z-index: 3000;
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+
+.arr1 {
+    bottom: 40px;
+}
+
+.arr2 {
+    bottom: 62px;
+}
+
+.noKown{
+  display: none !important;
+}
+
+.arrow {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -11px;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #4b4b4b;
+    border-right: 5px solid #4b4b4b;
+    z-index: 99;
+    opacity: .8;
+    -webkit-transform: rotate(45deg);
+    -webkit-animation: arrow 1.5s infinite ease-in-out;
+}
+
+@-webkit-keyframes arrow {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(0, 0px) rotate(45deg);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: translate(0, 5px) rotate(45deg);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translate(0, 10px) rotate(45deg);
+    }
 }
 
 @media only screen and (max-device-width:420px) {
