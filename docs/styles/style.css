@@ -565,6 +565,8 @@ body, html {
   height:200px;
   width:200px;
   margin: 0 auto;
+  background-image: url("../images/QRcode.jpeg");
+  background-size: 100% 100%;
 }
 
 @media only screen and (max-device-width:420px) {
