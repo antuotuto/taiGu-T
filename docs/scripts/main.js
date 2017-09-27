@@ -180,7 +180,7 @@ var Swiper = new Swiper('.swiper-container', {
             $('.slide-second .animated').removeClass('active')
             $('.slide-forth .animated').removeClass('active')
             $('.slide-third .animated').addClass('active')
-            // line.reset();
+            line.reset();
         }
         if (swiper.activeIndex == 3) {
             // 第四页开始
@@ -188,7 +188,7 @@ var Swiper = new Swiper('.swiper-container', {
             $('.slide-fifth .animated').removeClass('active')
             $('.slide-forth .animated').addClass('active')
             // canvans 开始绘画
-            line._init();
+            // line._init();
         }
         if (swiper.activeIndex == 4) {
             // 第五页开始
