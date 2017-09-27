@@ -188,7 +188,7 @@ var Swiper = new Swiper('.swiper-container', {
             $('.slide-fifth .animated').removeClass('active')
             $('.slide-forth .animated').addClass('active')
             // canvans 开始绘画
-            // line._init();
+            line._init();
         }
         if (swiper.activeIndex == 4) {
             // 第五页开始
