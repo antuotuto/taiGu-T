@@ -20,6 +20,11 @@ html, body {
   overflow: hidden;
 }
 
+html, body div, img, input, section, p {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 body {
   font-size: 100%;
 }
@@ -67,6 +72,12 @@ body, html {
 
 
 /*==========================Start===========================*/
+
+.swiper-container,
+.swiper-wrapper{
+  height:100%;
+  overflow: hidden;
+}
 
 .swiper-slide {
   position: relative;
@@ -562,7 +573,7 @@ body, html {
 
 .linkTo {
   position: relative;
-  top: 550px;
+  top: 488px;
   margin: 0 auto;
   width: 400px;
 }
@@ -579,11 +590,10 @@ body, html {
   color: #001979;
 }
 
-.linkTo li:last-child a {
-  text-align: center;
-  color: #000000;
-  text-decoration: none;
-  padding-bottom: 10px;
+.linkTo li:last-child{
+  height:200px;
+  width:200px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-device-width:420px) {
@@ -592,7 +602,8 @@ body, html {
     bottom: 100px;
   }
   .indexLouRight{
-    height:950px;
+    height:850px;
+    top: 550px;
   }
   .indexLouLeft{
     height:460px;
