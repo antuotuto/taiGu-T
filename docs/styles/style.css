@@ -390,8 +390,8 @@ html {
     position: absolute;
     left: 433px;
     top: 377px;
-    width: 108px;
-    height: 56.5px;
+    width: 108.5px;
+    height: 61px;
 }
 
 .fifth3 {
@@ -404,7 +404,7 @@ html {
     height: 79px;
 }
 
-.fifth33 {
+.fifth44 {
     background-image: url("../images/fifth44.png");
     background-size: 100% 100%;
     position: absolute;
@@ -424,11 +424,11 @@ html {
     height: 79px;
 }
 
-.fifth44 {
+.fifth33 {
     background-image: url("../images/fifth33.png");
     background-size: 100% 100%;
     position: absolute;
-    left: 436px;
+    left: 433px;
     top: 575px;
     width: 185px;
     height: 64px;
@@ -448,8 +448,8 @@ html {
     background-image: url("../images/fifth55.png");
     background-size: 100% 100%;
     position: absolute;
-    left: 174px;
-    top: 780px;
+    left: 432px;
+    top: 778px;
     width: 118.15px;
     height: 64px;
 }
@@ -508,8 +508,8 @@ html {
     background-image: url("../images/fifth88.png");
     background-size: 100% 100%;
     position: absolute;
-    left: 400px;
-    top: 778px;
+    left: 140px;
+    top: 780px;
     width: 185px;
     height: 64px;
 }
