@@ -112,7 +112,7 @@ html {
     opacity: 0.38;
     position: absolute;
     left: 470px;
-    top: 572px;
+    bottom: -270px;
     width: 228px;
     height: 132px;
 }
@@ -122,7 +122,7 @@ html {
     background-size: 100% 100%;
     position: absolute;
     left: -27px;
-    top: 833px;
+    bottom: 0;
     width: 795px;
     height: 563px;
 }
@@ -564,7 +564,8 @@ html {
     position: relative;
     top: 488px;
     margin: 0 auto;
-    width: 400px;
+    width: 430px;
+    text-align: center;
 }
 
 .linkTo li {
@@ -647,7 +648,8 @@ html {
     }
 }
 
-@media only screen and (max-device-width:420px) {
+
+/* @media only screen and (max-device-width:420px) {
     .building {
         left: 0;
         bottom: 100px;
@@ -673,4 +675,4 @@ html {
     .indexLouLeft {
         height: 563px;
     }
-}
+} */
