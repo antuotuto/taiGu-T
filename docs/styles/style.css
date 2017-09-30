@@ -117,24 +117,22 @@ html {
     height: 132px;
 }
 
-.indexLouLeft {
-    background-image: url("../images/indexLouLeft.png");
-    background-size: 100% 100%;
-    position: absolute;
-    left: -27px;
-    bottom: 0;
-    width: 795px;
-    height: 563px;
-}
-
 .indexLouRight {
     background-image: url("../images/indexLouRight.png");
-    background-size: 100% 100%;
     position: absolute;
-    left: -35px;
+    left: 381px;
+    top: 833px;
+    width: 369px;
+    height: 501px;
+}
+
+.indexLouLeft {
+    background-image: url("../images/indexLouLeft.png");
+    position: absolute;
+    left: 0px;
     top: 544px;
-    width: 400px;
-    height: 1033px;
+    width: 369px;
+    height: 790px;
 }
 
 .indexLook {
@@ -199,9 +197,9 @@ html {
     background-size: 100% 100%;
     position: absolute;
     left: -112px;
-    top: -93px;
+    top: 0;
     width: 975px;
-    height: 1437px;
+    height: 100%;
 }
 
 .indexShan {
